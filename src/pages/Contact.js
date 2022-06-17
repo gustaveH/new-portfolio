@@ -143,53 +143,6 @@ function Contact() {
                 {handleAlerts()}
               </div>
             </div>
-            <div className="col-lg-6">
-              <div className="mi-contact-info">
-                {!phoneNumbers ? null : (
-                  <div className="mi-contact-infoblock">
-                    <span className="mi-contact-infoblock-icon">
-                      <Icon.Phone />
-                    </span>
-                    <div className="mi-contact-infoblock-content">
-                      <h6>Phone</h6>
-                      {phoneNumbers.map((phoneNumber) => (
-                        <p key={phoneNumber}>
-                          <a href={numberFormatter(phoneNumber)}>
-                            {phoneNumber}
-                          </a>
-                        </p>
-                      ))}
-                    </div>
-                  </div>
-                )}
-                {!emailAddress ? null : (
-                  <div className="mi-contact-infoblock">
-                    <span className="mi-contact-infoblock-icon">
-                      <Icon.Mail />
-                    </span>
-                    <div className="mi-contact-infoblock-content">
-                      <h6>Email</h6>
-                      {emailAddress.map((email) => (
-                        <p key={email}>
-                          <a href={`mailto:${email}`}>{email}</a>
-                        </p>
-                      ))}
-                    </div>
-                  </div>
-                )}
-                {!phoneNumbers ? null : (
-                  <div className="mi-contact-infoblock">
-                    <span className="mi-contact-infoblock-icon">
-                      <Icon.MapPin />
-                    </span>
-                    <div className="mi-contact-infoblock-content">
-                      <h6>Address</h6>
-                      <p>{address}</p>
-                    </div>
-                  </div>
-                )}
-              </div>
-            </div>
           </div>
         </div>
       </div>
