@@ -149,7 +149,7 @@ const database = {
       },
     ]
   },
-  
+
   contactInfo: {
     phoneNumbers: ['+012-3456-7891', '+012-3456-7892'],
     emailAddress: ['admin.sitename@example.com', 'info.sitename@example.com'],
