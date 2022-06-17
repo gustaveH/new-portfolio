@@ -5,7 +5,7 @@ const database = {
     name: 'Gustave Habimana',
     aboutContent: "I am a Software Developer with a passion for creating friendly and responsive applications. Take a look around my page and some of my amazing and fun work. Also feel free to connect with me. ",
     phone: '',
-    nationality: 'Rwandan',
+    nationality: 'Rwanda',
     language: 'English, Kinyarwanda, Kiswahili',
     email: '',
     address: 'Atlanta, GA',
@@ -97,22 +97,19 @@ const database = {
     {
       id: 1,
       title: "Denwize LLC",
-      subtitle: "A beautiful t-shirt mockup.",
       imageUrl: "/images/denwize.jpg",
       url: 'https://denwize.com'
     },
     {
       id: 2,
       title: "Mageza Wedding",
-      subtitle: "Awesome coffee mug design.",
       imageUrl: "/images/lesmageza.jpg",
       url: 'https://lesmageza.com'
     },
     {
       id: 3,
       title: "Keza Queens Podcast",
-      subtitle: "Beautiful mug with logo.",
-      imageUrl: "/images/kezaqueens.jpg",
+      imageUrl: "/images/kezas.jpg",
       url: 'https://kezaqueens.netlify.app'
     }
   ],
