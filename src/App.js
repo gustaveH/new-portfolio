@@ -28,7 +28,7 @@ function App() {
 
   return (
     <BrowserRouter>
-      <div className="light-mode">
+      {/* <div className="light-mode">
         <span className="icon">
           <Icon.Sun />
         </span>
@@ -38,7 +38,7 @@ function App() {
           }
           onClick={() => handleMode()}
         ></button>
-      </div>
+      </div> */}
       <Routes>
         <Route path="/" index element={<Home lightMode={lightMode} />} />
         <Route path="about" element={<About />} />
