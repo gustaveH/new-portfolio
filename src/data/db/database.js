@@ -28,17 +28,17 @@ const database = {
     {
       title: "Web Development",
       icon: 'brush-alt',
-      details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod."
+      details: "I design, develop, and deploy responsive web apps while making sure they meet user needs. I also maintain existing applications"
     },
     {
       title: "Cloud Computing",
       icon: 'code',
-      details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod."
+      details: "Storage is important anywhere, anytime. Using AWS endless services, I can optimize apps while making them scalable to any work needed."
     },
     {
       title: "Each one Teach One",
       icon: 'mobile',
-      details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod."
+      details: "Leaning new technology is hard. I make an effort to help those that are trying to get into technology by providing them tools based on their goals."
     }
   ],
   reviews: [
