@@ -38,7 +38,7 @@ const database = {
     {
       title: "Each one Teach One",
       icon: 'book',
-      details: "Leaning new technology is hard. I make an effort to help those that are trying to get into technology by providing them tools based on their goals."
+      details: "Learning new technology is hard. I make an effort to help those that are trying to get into technology by providing them tools based on their goals."
     }
   ],
   reviews: [

@@ -20,7 +20,7 @@ function Home({ lightMode }) {
         <title>Gustave - My Portfolio</title>
         <meta
           name="description"
-          content="Chester React Personal Portfolio Template Homepage"
+          content="Gustave - Portfolio"
         />
       </Helmet>
       <div className="mi-home-area mi-padding-section">
