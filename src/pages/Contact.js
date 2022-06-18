@@ -1,6 +1,5 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
-import * as Icon from "react-feather";
 import { Helmet } from "react-helmet";
 import Layout from "../components/Layout";
 import Sectiontitle from "../components/Sectiontitle";
@@ -83,12 +82,13 @@ function Contact() {
               <div className="mi-contact-formwrapper">
                 <h4>Get In Touch</h4>
                 <form
-                  action="#"
+                  action="POST"
+                  data-netlify = "true"
                   className="mi-form mi-contact-form"
                   onSubmit={submitHandler}
                 >
                   <div className="mi-form-field">
-                    <label htmlFor="contact-form-name">Enter your name*</label>
+                    <label htmlFor="contact-form-name">Your name*</label>
                     <input
                       onChange={handleChange}
                       type="text"
@@ -99,7 +99,7 @@ function Contact() {
                   </div>
                   <div className="mi-form-field">
                     <label htmlFor="contact-form-email">
-                      Enter your email*
+                      Your email*
                     </label>
                     <input
                       onChange={handleChange}
@@ -111,7 +111,7 @@ function Contact() {
                   </div>
                   <div className="mi-form-field">
                     <label htmlFor="contact-form-subject">
-                      Enter your subject*
+                      Your subject*
                     </label>
                     <input
                       onChange={handleChange}
@@ -123,7 +123,7 @@ function Contact() {
                   </div>
                   <div className="mi-form-field">
                     <label htmlFor="contact-form-message">
-                      Enter your Message*
+                      Your Message*
                     </label>
                     <textarea
                       onChange={handleChange}
@@ -134,6 +134,7 @@ function Contact() {
                       value={formdata.message}
                     ></textarea>
                   </div>
+                  <div data-netlify-recapcha= "true"></div>
                   <div className="mi-form-field">
                     <button className="mi-button" type="submit">
                       Send Mail

@@ -5,7 +5,6 @@ const database = {
     name: 'Gustave Habimana',
     aboutContent: "I am a Software Developer with a passion for creating friendly and responsive applications. Take a look around my page and some of my amazing and fun work. Also feel free to connect with me. ",
     phone: '',
-    nationality: 'Rwanda',
     language: 'English, Kinyarwanda, Kiswahili',
     email: '',
     address: 'Atlanta, GA',

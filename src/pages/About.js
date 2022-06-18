@@ -97,8 +97,7 @@ function About() {
                 </h3>
                 <p>
                 I am a Software Developer with a passion for creating friendly and responsive applications.
-                 I have over 2 years as developer along with a journey in the business industry. 
-                 I'm open to new projects that I can add my skills and expand my passion for coding. 
+                 I have over 2 years as developer in IT. I'm open to new projects that I can add my skills and expand my passion for coding. 
                 </p>
                 <ul>
                   {!information.name ? null : (
